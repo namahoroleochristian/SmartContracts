@@ -1,5 +1,5 @@
-pragma solidity ^0.8;
 // SPDX-Licence-Identifier :MIT;
+pragma solidity ^0.8;
 contract Largest{
     function CheckLargest(int Number1,int Number2,int Number3) public pure returns(string memory result){
         if (Number1 > Number2 && Number1 >Number3){

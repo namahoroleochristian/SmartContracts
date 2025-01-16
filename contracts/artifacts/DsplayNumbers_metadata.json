@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "seeNumbers",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Table.sol": "DsplayNumbers"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Table.sol": {
+			"keccak256": "0xd94164dc7c16b91740c13031bdf7f6cde766e43afb5e305414eb8dbbb00e9b66",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://80ebba8148f13724db2e2dadd2b4b37ffbacc2695f66b224713efba1018a24d9",
+				"dweb:/ipfs/QmVpB4csLENmUsnsHes5vAsgyGTA7xE35c88zsEHr5Kwym"
+			]
+		}
+	},
+	"version": 1
+}

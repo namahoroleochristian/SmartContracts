@@ -1,0 +1,74 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "Number1",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "Number2",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "Number3",
+						"type": "int256"
+					}
+				],
+				"name": "CheckLargest",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "result",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Largest.sol": "Largest"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Largest.sol": {
+			"keccak256": "0x85bb3d866a241891dd3fa4f26d99d20dcf61c35703a1fc55c2b3182284eff463",
+			"urls": [
+				"bzz-raw://51d7d2a97267721437d983dbd7e11c92687af12f280b17adc4dc689ecb2a53ba",
+				"dweb:/ipfs/QmakjX4QqBxQWDSPzrPcsm1XAMe4gMqkwUwGdePMAwGdVx"
+			]
+		}
+	},
+	"version": 1
+}
